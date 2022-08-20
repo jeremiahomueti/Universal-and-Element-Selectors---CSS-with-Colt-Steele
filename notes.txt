@@ -1,0 +1,65 @@
+Everything you do in CSS follows the form:
+
+
+Selector {
+             Property: Value;
+            }
+
+
+
+A good understanding of CSS Selectors is instrumental to a good CSS grasp.
+
+
+1. UNIVERSAL SELECTOR (*): The first selector we're going to look at is the universal selector. 
+It selects everything in a document. Colt is not sure it's a good thing to do, especially because there are 
+relatively better alternatives, according to Colt. 
+
+So, if you want all the colors to be dark
+
+
+* {
+    colors: black;
+}
+
+Although this will select every image, text, and everything that may not even need a color change, and try to
+force it into color black - like all the divs, and containers, etc.
+
+
+or all backgrounds to be blue:
+
+* {
+    background-color: blue;
+}
+
+
+
+*******************************************************************************************************************
+
+The next selector is the element selector. 
+
+We've already seen this. It selects all thing of a given type.
+
+ELEMENT SELECTOR
+
+//select all images
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+
+
+--------------------
+
+
+SELECTOR LIST
+An interesting feature of CSS, is that you can use a comma (,) to seperate multiple elements.
+
+h1, h2 {
+    color: white;
+}
+
+
+
+
